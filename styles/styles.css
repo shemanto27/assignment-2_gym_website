@@ -20,7 +20,7 @@
     margin: 0px 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .btn-nav{
@@ -31,8 +31,26 @@
     padding: 8px 20px 8px 20px;
     width: 92px;
     height: 38px;
+    border: none;
 }
 
 .btn-nav:hover{
     background-color: rgb(230, 83, 60);;
+}
+
+.logo{
+    color: rgb(230, 83, 60);
+    font-size: 20px;
+    font-style: italic;
+}
+
+header{
+    max-width: 1440px;
+    height: 715px;
+    border: 2px solid red;
+    padding-top: 58.5px;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-bottom: 0pxb;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
