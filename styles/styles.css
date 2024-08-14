@@ -8,12 +8,33 @@
     font-family: "Inter", sans-serif;
 }
 
+.heading-primary{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.paragraph-primary{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.paragraph-secondary{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
 /* ------------------------------------Nav Styles--------------------------------------- */
 
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(17, 17, 17);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .nav-btns{
@@ -36,11 +57,12 @@
     height: 38px;
     border: none;
     color: rgb(255, 255, 255);
+    
+    &:hover{
+        background-color: rgb(230, 83, 60);;
+    }
 }
 
-.btn-nav:hover{
-    background-color: rgb(230, 83, 60);;
-}
 
 .logo{
     color: rgb(230, 83, 60);
@@ -50,8 +72,8 @@
 
 header{
     max-width: 1440px;
-    height: 715px;
-    border: 2px solid red;
+    margin: 0 auto;
+    /* border: 2px solid red; */
     padding-top: 58.5px;
     padding-left: 190px;
     padding-right: 190px;
@@ -94,3 +116,32 @@ header{
     color: rgb(255, 255, 255);
     border: none;
 }
+
+.hero-content-img img{
+    /* border: 2px solid red; */
+    position: relative;
+    width: 349px;
+    height: 580px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ----------------------------Change Your Habits Section--------------------------- */
+
+.change-habit-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(17, 17, 17);
+}
+
+.change-habit-img-container{
+    display: flex;
+
+}
+
+
+/* ------------------------------Run Extra Miles Section-------------------------------------- */

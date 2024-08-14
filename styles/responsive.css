@@ -1,0 +1,12 @@
+@media screen and (max-width:576px){
+    .nav{
+        flex-direction: column;
+    }
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-all-btn{
+        display: flex;
+
+    }
+}
