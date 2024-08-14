@@ -189,15 +189,18 @@ header{
     max-width: 1440px;
     margin: 0 auto;
     background-color: rgb(17, 17, 17);
+    /* border: 2x solid red; */
 }
 
 .bmi-calculator{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
     background: rgb(34, 34, 34);
+    width: 100%;
+    
 }
 
 .calculator-heading{
@@ -211,3 +214,70 @@ header{
     border-collapse: collapse;
     color: rgba(255, 255, 255, 0.5)
 }
+
+.calculator input,select,option{
+    width: 282.5px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    gap: 12px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* ------------------------------Meet Our Team Section ------------------------------ */
+
+.team-container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(17, 17, 17);
+}
+
+.img-grid-card{
+    width: 1060px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "d e f";
+    margin: 0 auto;
+}
+
+.img-grid-card img{
+    width: 300px;
+    height: 250px;
+    border-radius: 18px;
+    
+}
+
+.img1{
+    grid-area: a;
+}
+.img2{
+    grid-area: b;
+}
+.img3{
+    grid-area: c;
+}
+.img4{
+    grid-area: d;
+}
+.img5{
+    grid-area: e;
+}
+.img6{
+    grid-area: f;
+
+}
+
+
