@@ -281,3 +281,34 @@ header{
 }
 
 
+/* ----------------------------------Footer Section ----------------------------------------- */
+
+footer{
+    background-color: rgb(34, 34, 34);
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    flex-direction: column;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-container a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+footer hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
