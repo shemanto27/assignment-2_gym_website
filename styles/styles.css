@@ -26,6 +26,18 @@
     font-weight: 600;
 }
 
+.primary-btn{
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
 /* ------------------------------------Nav Styles--------------------------------------- */
 
 .nav{
@@ -145,3 +157,57 @@ header{
 
 
 /* ------------------------------Run Extra Miles Section-------------------------------------- */
+.run-extra-mile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(17, 17, 17);
+}
+
+.run-extra-mile-card{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    width: 1060px;
+    height: 371px;
+    display: flex;
+}
+
+.run-extra-mile-img img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
+/*------------------------------------------------ BMI calculator Section-------------------------------------- */
+
+.bmi-calculator-container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(17, 17, 17);
+}
+
+.bmi-calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+}
+
+.calculator-heading{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.chart table,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    color: rgba(255, 255, 255, 0.5)
+}
